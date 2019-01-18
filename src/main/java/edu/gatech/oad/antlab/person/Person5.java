@@ -33,7 +33,7 @@ public class Person5 {
             //Person 5 put your implementation here
             String calced = input.substring(2);
             calced += input.substring(0,2);
-            return null;
+            return calced;
 	}
 
 	/**
