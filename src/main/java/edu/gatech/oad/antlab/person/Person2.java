@@ -31,7 +31,7 @@ public class Person2 {
 	 */
 	private String calc(String input) {
 	  //Person 2 put your implementation here
-      return input.substring(1,2) + input.substring(0,1) + input.substring(2)
+      return input.substring(1,2) + input.substring(0,1) + input.substring(2);
 	}
 	/**
 	 * Return a string rep of this object
