@@ -4,6 +4,8 @@ plugins {
 }
 defaultTasks 'jar'
 
+sourceCompatibility = 1.8
+version = '1.0'
 mainClassName = 'edu.gatech.oad.antlab.pkg1.AntLabMain'
 jar {
     manifest {
@@ -13,7 +15,12 @@ jar {
         )
     }
     destinationDir = file("$rootDir")
+    archiveName = 'Main.jar'
 } 
+
+clean {
+    delete 'Main.jar'
+}
 
 repositories {
     flatDir {
